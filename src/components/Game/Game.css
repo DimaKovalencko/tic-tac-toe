@@ -1,0 +1,62 @@
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+    background: #545f7d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navigation-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 80px;
+}
+
+.menu-btn {
+    width: 200px;
+    height: 35px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.restart-btn {
+    background: #222222;
+    color: white;
+    border: 1px solid #222222;
+}
+
+.changeName-btn{
+    background: #fff;
+    color: #222222;
+    border: 1px solid white;
+    
+}
+
+.modal-btn {
+    width: 100%;
+}
+
+.modal-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.modal-input {
+    width: 100%;
+}
+
+.navigation-menu__info {
+    color: #fff;
+    font-size: 20px;
+    width: 300px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}

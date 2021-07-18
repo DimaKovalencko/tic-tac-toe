@@ -1,0 +1,12 @@
+.board {
+    width: 380px;
+    height: 380px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.start__btn:hover {
+    background: #fff;
+    color: #222222;
+    transition: .3s all ease;
+}
